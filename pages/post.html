@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<meta name="description" content="Книжный магазин" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/navbar.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/sidenav.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/post.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/iconbar.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/Footer.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/animation.css"/>
+		<title>Написать нам письмо</title>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header style="display: flex; justify-content: center; align-items: center;">
+				<img src="../image/logo.png">
+			</header>
+			<div id="page-preloader">
+				<div class="loading-wrap">
+    				<div class="triangle1"></div>
+    				<div class="triangle2"></div>
+    				<div class="triangle3"></div>
+				</div>
+				<p>Секундочку</p>
+			</div>
+			<script src="../js/preloader.js"></script>
+			<main>
+				<div class="topnav" id="myTopnav">
+					<span id="openNav" onclick="openNav()">☰</span>
+					<a href="../index.html" class="activeTopnav">Главная</a>
+					<div class="topnav-right">
+						<a href="../pages/loginform.html" id="alogin">Вход</a>
+						<a href="../pages/regform.html" id="areg">Регистрация</a>
+					</div>
+				</div>
+
+				<div id="mySidenav" class="sidenav">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+					<a href="../index.html">Главная</a>
+					<a href="../pages/audio.html">Аудиокниги</a>
+					<a href="../pages/post.html" style="text-decoration: underline;">Написать нам&nbspписьмо</a>
+					<a href="../pages/about.html">О&nbspнас</a>
+					<a href="#contacts" onclick="closeNav()">Контакты</a>
+				</div>
+				<script src="../js/sidenav.js"></script>
+				<div class="statistics">
+					<!--<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+					<div class="elfsight-app-102b3cf2-2dbc-45cf-a494-7d797c23552b"></div>-->
+				</div>
+
+				<div class="icon-bar">
+		  			<a href="https://vk.com/nurik_1337" target="_blank" class="vk"><i class="fa fa-vk"></i></a> 
+		  			<a href="https://www.instagram.com/nurik.topskiy/" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a> 
+		 			<a href="https://github.com/nuriktopskiy" target="_blank" class="github"><i class="fa fa-github"></i></a>
+		 			<a href="https://api.whatsapp.com/send?phone=79006221612" target="_blank" class="whatsapp"><i class="fa fa-whatsapp"></i></a> 
+				</div>
+				
+				<div class="main-container">
+					<div class="container">
+					<div class="container_post_title">
+						<p>Обратная связь</p>
+					</div>
+					<div class="e-mail">
+						<h4>Почта neznayka.2014@yandex.ru</h4>
+					</div>
+					<div class="table">
+						<form>
+							<div style="display: inline;">
+								<label for="text1" style="margin-right: 85.95px;">Имя отправителя<font color="red">*</font>:</label>
+								<input type="text" placeholder="Имя отправителя" required>
+							</div>
+							<br>
+							<div style="display: inline;">
+								<label for="pass" style="margin-right: 70px;">E-mail отправителя<font color="red">*</font>:</label>
+								<input type="text" id="pass" placeholder="E-mail отправителя" required>
+							</div>
+							<br>
+							<div style="display: inline;">
+								<label for="comment" style="margin-right: 130.04px;">Тема письма:</label>
+								<input type="text" id="comment" placeholder="Тема письма">
+							</div>
+							<br>
+							<div class="comment">
+								<label for="comment" style="vertical-align: top; margin-right: 120.08px;">Текст письма<font color="red">*</font>:</label>
+								<textarea type="comment" id="comment" placeholder="Введите текст" required></textarea>
+							</div>
+							<br>
+							<div style="display: inline;">
+								<label for="checkbox">Я не робот:</label>
+								<label><input type="checkbox" id="checkbox1" /> да</label>
+							</div>
+							<div class="sub_reset"><input type="submit" value="Send">&nbsp;<input type="reset"></div>
+						</form>
+					</div>
+				</div>
+				</div>
+			</main>
+			<footer id="myFooter">
+				<a id="contacts"></a>
+				<div class="footer-container">
+					<p>Если вы заметили недочеты по сайту или хотите связаться с нами, напишите на Email: <a href="mailto:neznayka.2014@yandex.ru" style="color: red;">neznayka.2014@yandex.ru</a></p>
+				</div>
+				<div class="icon-bar-mobile">
+		  			<a href="https://vk.com/nurik_1337" target="_blank" class="vk"><i class="fa fa-vk"></i></a> 
+		  			<a href="https://www.instagram.com/nurik.topskiy/" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a> 
+		 			<a href="https://github.com/nuriktopskiy" target="_blank" class="github"><i class="fa fa-github"></i></a>
+		 			<a href="https://api.whatsapp.com/send?phone=79006221612" target="_blank" class="whatsapp"><i class="fa fa-whatsapp"></i></a> 
+				</div>
+			</footer>
+		</div> <!--Конец wrapper (обёртка)-->
+	</body>
+</html>
