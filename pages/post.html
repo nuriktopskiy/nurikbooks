@@ -18,7 +18,7 @@
 	<body>
 		<div class="wrapper">
 			<header style="display: flex; justify-content: center; align-items: center;">
-				<img src="../image/logo.png">
+				<img alt="лого" src="../image/logo.png">
 			</header>
 			<div id="page-preloader">
 				<div class="loading-wrap">
@@ -43,8 +43,8 @@
 					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
 					<a href="../index.html">Главная</a>
 					<a href="../pages/audio.html">Аудиокниги</a>
-					<a href="../pages/post.html" style="text-decoration: underline;">Написать нам&nbspписьмо</a>
-					<a href="../pages/about.html">О&nbspнас</a>
+					<a href="../pages/post.html" style="text-decoration: underline;">Написать нам письмо</a>
+					<a href="../pages/about.html" style="white-space: nowrap;">О нас</a>
 					<a href="#contacts" onclick="closeNav()">Контакты</a>
 				</div>
 				<script src="../js/sidenav.js"></script>
@@ -71,28 +71,28 @@
 					<div class="table">
 						<form>
 							<div style="display: inline;">
-								<label for="text1" style="margin-right: 85.95px;">Имя отправителя<font color="red">*</font>:</label>
-								<input type="text" placeholder="Имя отправителя" required>
+								<label for="text1" style="margin-right: 85.95px;">Имя отправителя<font style="color: red;">*</font>:</label>
+								<input name="text1" type="text" placeholder="Имя отправителя" required>
 							</div>
 							<br>
 							<div style="display: inline;">
-								<label for="pass" style="margin-right: 70px;">E-mail отправителя<font color="red">*</font>:</label>
+								<label for="pass" style="margin-right: 70px;">E-mail отправителя<font style="color: red;">*</font>:</label>
 								<input type="text" id="pass" placeholder="E-mail отправителя" required>
 							</div>
 							<br>
 							<div style="display: inline;">
 								<label for="comment" style="margin-right: 130.04px;">Тема письма:</label>
-								<input type="text" id="comment" placeholder="Тема письма">
+								<input type="text" placeholder="Тема письма">
 							</div>
 							<br>
 							<div class="comment">
-								<label for="comment" style="vertical-align: top; margin-right: 120.08px;">Текст письма<font color="red">*</font>:</label>
-								<textarea type="comment" id="comment" placeholder="Введите текст" required></textarea>
+								<label for="comment" style="vertical-align: top; margin-right: 120.08px;">Текст письма<font style="color: red;">*</font>:</label>
+								<textarea placeholder="Введите текст" required></textarea>
 							</div>
 							<br>
 							<div style="display: inline;">
 								<label for="checkbox">Я не робот:</label>
-								<label><input type="checkbox" id="checkbox1" /> да</label>
+								<label><input name="checkbox" type="checkbox" id="checkbox1" /> да</label>
 							</div>
 							<div class="sub_reset"><input type="submit" value="Send">&nbsp;<input type="reset"></div>
 						</form>
